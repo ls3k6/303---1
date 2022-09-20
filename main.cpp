@@ -16,7 +16,7 @@ int main() {
   if(checkNum(org, num, SIZE) == -1){
     cout << "The number does not exist in the array." << endl;
   }else{
-    cout << "\nThe number exists at index " << checkNum(org,num, SIZE) << endl;
+    cout << "\nThe index: " << checkNum(org,num, SIZE) << endl;
   }
 
   cout << "\n\nWhat new number would you like to add? " << endl;
