@@ -2,7 +2,7 @@
 
 int readInFile(int* &org, int &SIZE){
   ifstream inFile;
-  inFile.open("text.txt");
+  inFile.open("txt.txt");
   if(!inFile.is_open()){
     cout << "FILE NOT FOUND" << endl;
     return 1;
