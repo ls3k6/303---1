@@ -1,4 +1,4 @@
-assignment 1
+ASSIGNMENT 1
 
 output:
 
