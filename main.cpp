@@ -11,15 +11,15 @@ int main() {
     cout << org[i] << " ";
   }
 
-  cout << "\n\nWhat number would you like to check for? " << endl;
+  cout << "\n\nNumber to check for: ";
   cin >> num;
   if(checkNum(org, num, SIZE) == -1){
-    cout << "The number does not exist in the array." << endl;
+    cout << "The number does not exist" << endl;
   }else{
     cout << "\nThe index: " << checkNum(org,num, SIZE) << endl;
   }
 
-  cout << "\n\nWhat new number would you like to add? " << endl;
+  cout << "\n\nNumber to add: ";
   cin >> num;
   
   addNum(org, num, SIZE);
@@ -28,7 +28,7 @@ int main() {
     cout << org[i] << " ";
   }
 
-  cout << "\n\nWhat index would you like to delete? " << endl;
+  cout << "\n\nIndex to delete: ";
   cin >> num;
   
   delNum(org, num, SIZE);
