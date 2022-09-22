@@ -21,7 +21,7 @@ int main() {
       cout << "\nThe index: " << checkNum(org,num, SIZE) << endl;
   }
 
-  cout << "\n\nNumber to add: ";
+  cout << "\nNumber to add: ";
   cin >> num;
   
   addNum(org, num, SIZE);
