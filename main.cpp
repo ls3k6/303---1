@@ -15,7 +15,9 @@ int main() {
   cin >> num;
   if(checkNum(org, num, SIZE) == -1){
     cout << "The number does not exist" << endl;
-  }else{
+    return 0;
+  }
+  else{
     cout << "\nThe index: " << checkNum(org,num, SIZE) << endl;
   }
 
